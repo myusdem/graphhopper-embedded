@@ -64,7 +64,7 @@
 				</configuration>
 			</plugin>
 
-			<plugin>
+<!--			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-failsafe-plugin</artifactId>
 				<version>2.13</version>
@@ -82,7 +82,7 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin>-->
 
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
@@ -91,9 +91,6 @@
 				<configuration>
 					<mainClass>org.roi.payg.PopulateDb</mainClass>
 					<classpathScope>test</classpathScope>
-					<arguments>
-						<argument>test</argument>
-					</arguments>
 				</configuration>
 				<executions>
 					<execution>
@@ -103,6 +100,7 @@
 							<goal>java</goal>
 						</goals>
 						<configuration>
+							<skip>${skipTests}</skip>
 						</configuration>
 					</execution>
 					<!-- <execution>
