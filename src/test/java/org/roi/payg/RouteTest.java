@@ -75,6 +75,6 @@ public class RouteTest {
      	   duration = entry.getTime();
     	}
     	
-		assertEquals(duration, 1443162);
+		assertEquals(duration, 1443140);
 	}
 }
