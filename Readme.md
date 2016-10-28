@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/myusdem/graphhopper-embedded.svg?branch=master)](https://travis-ci.org/myusdem/graphhopper-embedded)
+
 # GraphHopper Traffic Data Integration
 
 This project makes traffic information integration into GraphHopper possible. In the example we are using real time traffic from Cologne and update every ~2 minutes, the UI will update too. The web UI is basically a slightly changed [GraphHopper Maps UI](https://graphhopper.com/maps/) with the traffic data in a separate HTML5 canvas layer:
