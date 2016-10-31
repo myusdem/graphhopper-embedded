@@ -19,7 +19,7 @@ import com.graphhopper.util.Instruction;
 import com.graphhopper.util.InstructionList;
 import com.graphhopper.util.PointList;
 
-public class RouteTest {
+public class RouteTestIT {
 
     private static final String testOsm = "./src/test/resources/org/roi/payg/saint-petersburg_russia.osm.pbf";
 	
